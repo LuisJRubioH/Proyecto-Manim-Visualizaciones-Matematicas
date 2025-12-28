@@ -35,7 +35,8 @@ manim -pql scenes/intro.py IntroScene
 ```
 
 ## Estructura del repositorio
-text
+
+```text
 manim-proyecto/
 ├── README.md
 ├── LICENSE
@@ -64,3 +65,5 @@ manim-proyecto/
 │   └── render.sh
 └── docs/
     └── ejemplos.md
+```
+
