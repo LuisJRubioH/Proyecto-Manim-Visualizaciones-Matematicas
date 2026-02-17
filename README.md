@@ -5,8 +5,6 @@ Este repositorio contiene animaciones matemáticas desarrolladas con **Manim (Ma
 Página oficial de Manim (Community Edition):  
 https://www.manim.community/
 
----
-
 ## Objetivo
 
 Proveer escenas matemáticas claras, reutilizables y bien estructuradas para ilustrar conceptos de:
@@ -33,37 +31,3 @@ Renderizar una escena:
 ```sh
 manim -pql scenes/intro.py IntroScene
 ```
-
-## Estructura del repositorio
-
-```text
-manim-proyecto/
-├── README.md
-├── LICENSE
-├── pyproject.toml
-├── requirements.txt
-├── .gitignore
-├── scenes/
-│   ├── __init__.py
-│   ├── algebra/
-│   │   ├── __init__.py
-│   │   └── vectores.py
-│   ├── calculo/
-│   │   ├── __init__.py
-│   │   └── limites.py
-│   ├── geometria/
-│   │   ├── __init__.py
-│   │   └── triangulos.py
-│   └── intro.py
-├── assets/
-│   ├── images/
-│   ├── svg/
-│   └── fonts/
-├── media/
-│   └── .gitkeep
-├── scripts/
-│   └── render.sh
-└── docs/
-    └── ejemplos.md
-```
-
