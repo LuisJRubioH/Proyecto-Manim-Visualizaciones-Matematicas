@@ -1,4 +1,5 @@
 from manim import *
+
 SCALE_FACTOR =0.7
 tmp_pixel_height = config.pixel_height
 config.pixel_height= config.pixel_width
